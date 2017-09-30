@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+
+
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/lazysizes.min.js" defer></script>
+	<title>Timetable converter for students of University of Birmingham</title>
+
+
+	<!-- Google Analytics -->
+
+	<!-- Google Analytics END -->
+
+</head>
+
+<body>
+	<!-- Main container -->
+	<div class="page-container">
+
+		<!-- bloc-0 -->
+		<div class="bloc bgc-white bg-mountains-italy d-bloc " id="bloc-0">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="mg-md">
+							iOS/Android timetable generator for students of University of Birmingham
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- bloc-0 END -->
+
+		<!-- bloc-1 -->
+		<div class="bloc bgc-white l-bloc" id="bloc-1">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-8">
+						<p>
+							<h3>Upload a HTML file of your timetable at my.bham</h3>
+							<span>Read the tutorial below.</span>
+						</p>
+						<form enctype="multipart/form-data" action="/upload" method="post">
+							Timetable file (.html): <input type="file" name="filearg" />
+							<br />
+							<br />
+							<input type="submit" value="Upload & Convert" />
+						</form>
+
+
+						<div>
+							<h2>Tutorial</h2>
+							<div>
+								<p>1. Use <b>Chrome</b>, sign into my.bham, then go to my timetables, find your timetable for this week.</p>
+								<p>
+									<ul>
+										<li>Right click the timetable.</li>
+										<li>Click 'View <b>frame</b> source'</li>
+									</ul>
+									<img src="https://i.imgur.com/o9HM86y.png" alt="pic-1" class="img">
+								</p>
+							</div>
+
+							<div>
+								<p>2. Right click the source codes, then click 'Save as...'</p>
+								<p>
+									<img src="https://i.imgur.com/wbWoD7i.png" alt="pic-2" class="img">
+								</p>
+							</div>
+
+							<div>
+								<p>3. Upload the saved file (.html), then you'll get your timetable.</p>
+								<p>The saved file should look like:</p>
+								<p>
+									<img src="https://i.imgur.com/C2plOiC.png" alt="pic-3" class="img">
+								</p>
+							</div>
+
+							<div>
+								<p>You calendar should look like:</p>
+								<p>
+									<img src="https://i.imgur.com/3LVOCXP.png" alt="pic-4" class="img">
+								</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-4">
+
+						Made with ♥ by Daohan Chong.
+
+						<br>
+
+						"Code is Poetry."
+
+						<br>
+
+						2017 - 2018 © All rights reserved.
+
+						<br>
+
+						This project will be open-sourced on Github soon.
+
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- bloc-1 END -->
+
+		<!-- ScrollToTop Button -->
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+		<!-- ScrollToTop Button END-->
+
+
+	</div>
+	<!-- Main container END -->
+
+
+</body>
+
+</html>
