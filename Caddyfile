@@ -1,7 +1,7 @@
 lab.daohanchong.com
 gzip
 log ./access.log
-proxy / app:8001 {
+proxy / app:8000 {
   header_upstream Host lab.daohanchong.com
   header_upstream X-Forwarded-Proto {scheme}
 }
